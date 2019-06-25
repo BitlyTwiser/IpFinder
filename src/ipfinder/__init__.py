@@ -1,7 +1,11 @@
 import click
-import main
 
-click.group()
+try:
+    from . import main
+except ImportError:
+    import main
+
+@click.group()
 def ipfinder():
     pass
 
