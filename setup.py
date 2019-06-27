@@ -12,11 +12,11 @@ setup(
     author_email='joshua.groeschl@tutanota.com',
     description='A utility tool for determining a users Public IPv4 WAN address.',
     license='MIT',
-    py_modules=['ipfinder'],
+    py_modules=['externip'],
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'ipfinder = ipfinder:ipfinder',
+            'ipfinder = externip:external_IP',
         ]
     },
     package_dir={'': 'src'},
