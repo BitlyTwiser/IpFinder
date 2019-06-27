@@ -16,7 +16,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'ipfinder = ipfinder:externip',
+            'ipfinder = src.ipfinder.externip:external_IP',
         ]
     },
     package_dir={'': 'src'},
