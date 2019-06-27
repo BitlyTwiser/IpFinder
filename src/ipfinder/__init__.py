@@ -1,13 +1,13 @@
 import click
 
 try:
-    from . import main
+    from . import externip
 except ImportError:
-    import main
+    import externip
 
 @click.group()
 def ipfinder():
     pass
 
 
-ipfinder.add_command(main.external_IP)
+ipfinder.add_command(externip.external_IP)
