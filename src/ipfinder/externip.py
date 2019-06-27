@@ -1,8 +1,8 @@
 import requests
 import click
 
-click.command()
-click.option('--find_ip', help='Simple CLI to discover your public IPv4 Address.')
+@click.command()
+@click.option('--find_ip', help='Simple CLI to discover your public IPv4 Address.')
 def external_IP(find_ip):
     """
     Super simple function to obtain the Public IP.
