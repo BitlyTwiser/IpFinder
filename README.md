@@ -15,5 +15,5 @@
 - Simple and light CLI program to obtain your public WAN IPv4 address.
 
 ## Usage:
-- ```python3 setup.py install```
+- ```pip3 install --editable .```
 - ```ipfinder --find_ip```
