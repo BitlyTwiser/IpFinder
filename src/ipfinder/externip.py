@@ -2,7 +2,7 @@ import requests
 import click
 
 @click.command()
-def external_IP(find_ip):
+def external_IP():
     """
     Super simple function to obtain the Public IP.
     """
