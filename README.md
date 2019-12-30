@@ -12,7 +12,7 @@
 ```
 
 # IpFinder:
-- Simple and light CLI program to obtain your public WAN IPv4 address.
+- Simple and light CLI program to obtain your public IPv4 address.
 
 ## Usage:
 - ```pip3 install --editable .```
