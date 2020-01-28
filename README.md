@@ -8,7 +8,7 @@
      | |                                  
      |_|                                  
 
-// Curator == Joshua Groeschl
+// Curator == BitlyTwiser
 ```
 
 # IpFinder:
